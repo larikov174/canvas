@@ -1,0 +1,46 @@
+.page {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  min-height: 550px;
+  display: grid;
+  grid-template-rows: 50px max-content 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.header {
+  grid-area: 1/1/2/3;
+}
+
+.canv {
+  grid-area: 2/1/3/3;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  max-width: 1024px;
+  width: 768px;
+  min-height: 400px;
+}
+
+.saveButton {
+  grid-area: 3/2/4/3;
+}
+
+.savedItemsList {
+  grid-area: 3/1/4/2;
+}
+/* 
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+} */
