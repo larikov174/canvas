@@ -1,11 +1,11 @@
 import React from "react";
-import Container from "./components/Container";
+import Canvas from "./components/Canvas";
 import './styles/styles.css';
 
 function App() {
   return (
     <div className="page">
-      <Container />
+      <Canvas />
     </div>
   );
 }

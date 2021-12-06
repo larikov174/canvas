@@ -1,18 +1,17 @@
-https://pspdfkit.com/blog/2017/how-to-build-free-hand-drawing-using-react/
+# Мой вариант решения.
 
-https://immutable-js.com/#getting-started
+## Использовал следующие библиотеки:
 
-https://medium.com/@pdx.lucasm/canvas-with-react-js-32e133c05258
+1. **react-hooks-svgdrawing** Это svg альтернатива для canvas, мне показалась более гибкой в использовании. 
 
-https://dev.to/ankursheel/react-component-to-fraw-on-a-page-using-hooks-and-typescript-2ahp
+ - Есть API на разные случаи (получить данные svg, "шаг назад", очистить форму или сохранить в файл)
+ - Гибкая настройка
+ - Можно повесить на любой **<div>** и стилизовать через CSS как угодно.
 
-задание
-https://gist.github.com/iambeone/deaabce2f8dbe7003d817dee3c7034b0
+2. **LZString** Для сжатия сохраняемой строки в localStorage.
 
-https://github.com/dulnan/lazy-brush
+3. **date-fns** Для удобной работы с форматами дат.
 
-https://github.com/embiem/react-canvas-draw
+Возможно я не правильно понял условия задания и нужно было этот компонент с нуля написать, но если често потратил больше времени чем планировал на 13 спринт... В общем использовать набор готовых решений мне показалось не плохой идеей, в конечном итоге все работает.
 
-https://daily-dev-tips.com/posts/javascript-mouse-drawing-on-the-canvas/
-
-https://thibaut.io/react-canvas-components
+В общем не судите строго :)  
